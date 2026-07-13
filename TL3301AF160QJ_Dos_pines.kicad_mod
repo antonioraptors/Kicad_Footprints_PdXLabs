@@ -1,0 +1,196 @@
+(footprint "TL3301AF160QJ_Dos_pines"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TL3301")
+	(tags "Switch")
+	(property "Reference" "SW1"
+		(at 0 0 90)
+		(layer "F.SilkS")
+		(uuid "6f821620-6ee5-491e-acc4-fbb43acca9c9")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TL3301FF100QJ"
+		(at 0 0.175 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e7eaa9dc-b591-41e1-aece-365929a63211")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.mx/datasheet/2/140/TL3301FF100QJ-3459173.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "faa97ea8-e1c3-4438-953c-8cf0bdd0db7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92022dcf-8479-4658-84c9-c65470f7b6b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Descripcion" ""
+		(at 245.233332 -41.033332 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02e2542d-9491-41dc-ae38-1881cdd3d5ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PartNo" "TL3301FF100QJ"
+		(at 245.233332 -41.033332 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a949ad29-797b-454b-9b9b-427d1317ab23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3 -3)
+		(end 3 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c46489d-3bf6-4155-b6d9-86fc2f2571e9")
+	)
+	(fp_line
+		(start -3 3)
+		(end -3 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d110e5f6-2650-4e95-b58b-be7c72d850eb")
+	)
+	(fp_line
+		(start 3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd045080-92ac-45c6-9f12-874a3c42b133")
+	)
+	(fp_line
+		(start 3 3)
+		(end -3 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91972c70-7360-4b81-b290-a480670a39a9")
+	)
+	(fp_line
+		(start -3 -3)
+		(end 3 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a8c05f68-9375-4ac0-9ad4-c3f60f40144b")
+	)
+	(fp_line
+		(start -3 3)
+		(end -3 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f5dd71e-a714-4f1a-bb11-d4f47c000d87")
+	)
+	(fp_line
+		(start 3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "817ec427-c784-4482-a1af-855c444dcca2")
+	)
+	(fp_line
+		(start 3 3)
+		(end -3 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e50033ab-7be0-4836-b29a-b30e4e785632")
+	)
+	(pad "1" smd rect
+		(at -2.25 -2.4)
+		(size 1.4 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "809801c7-e5d2-4ee2-8f8a-a1837ad1d81b")
+	)
+	(pad "1" smd rect
+		(at -2.25 2.4)
+		(size 1.4 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cc080d63-ea6f-4b3a-9ed6-c4462d938029")
+	)
+	(pad "2" smd rect
+		(at 2.25 -2.4)
+		(size 1.4 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e8769453-1157-45cc-84db-db74ca6965d9")
+	)
+	(pad "2" smd rect
+		(at 2.25 2.4)
+		(size 1.4 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "436cdc88-dd3d-4b9a-a113-c6801ad33838")
+	)
+	(embedded_fonts no)
+	(model "${PDX_3D}/TL3301AF160QJ.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

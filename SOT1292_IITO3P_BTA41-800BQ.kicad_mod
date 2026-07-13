@@ -1,0 +1,139 @@
+(footprint "SOT1292_IITO3P_BTA41-800BQ"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5.4 -3.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5f9d59e8-d626-4f27-9566-de145fe3115d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Sin título"
+		(at 0 -0.475 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "793b58fe-223b-4ef6-b344-fb10cecc7628")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7dcb894b-fdf6-4bf4-b7d3-fc6a5571f620")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5981b7a-9b6d-4f09-aa1f-bda646c7779d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -7.62 -3.048)
+		(end 7.62 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "a73c1e3d-619e-4608-854a-dbf0637ca431")
+	)
+	(fp_rect
+		(start -7.62 -2.54)
+		(end 7.62 2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b3b22753-f687-4889-9afd-d2ab993c30f7")
+	)
+	(fp_rect
+		(start -7.75 -3.25)
+		(end 7.75 2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "aa606e8b-8f8f-4aa2-8953-c3cc6047a70e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.025 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8898ad62-1a27-4b55-93ce-4c4f54925346")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -5.5 0)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3573c4b4-6426-47a6-b0d8-b98fee484f15")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "99f9f7e2-6a8e-4b91-a576-b5ae5c139da4")
+	)
+	(pad "3" thru_hole circle
+		(at 5.5 0)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b6590036-a8a0-4e91-bd49-2662392b82f1")
+	)
+	(embedded_fonts no)
+	(model "${PDX_3D}/BTA41-800BQ_IITO3P_SOT1292.STEP"
+		(offset
+			(xyz 0 0 7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

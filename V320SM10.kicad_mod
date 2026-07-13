@@ -1,0 +1,201 @@
+(footprint "V320SM10"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "V320SM10")
+	(tags "Varistor")
+	(property "Reference" "RV**"
+		(at -5.5 -5.5 0)
+		(layer "F.SilkS")
+		(uuid "5787a31b-6447-47b9-b8b6-b13003f5ce60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "V320SM10"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9adcfbae-b307-4098-80c8-a1ffbae8fbad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6366154d-cc1d-497e-8b23-c2f80ae22797")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e626c9ee-18db-43ad-b5d0-ae22a43b05c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -7.63 -4.25)
+		(end -7.63 -2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7d5155b-7ea7-4118-89cc-63a4e05bdf4f")
+	)
+	(fp_line
+		(start -7.63 2.2)
+		(end -7.63 4.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c193ceff-002f-4bbf-8581-8cad48618462")
+	)
+	(fp_line
+		(start -7.63 4.25)
+		(end 7.63 4.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65897bdf-4cd3-4bcb-b753-106638828c10")
+	)
+	(fp_line
+		(start 7.63 -4.25)
+		(end -7.63 -4.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1afff827-6a99-46f3-ac4c-c50448b38c5e")
+	)
+	(fp_line
+		(start 7.63 -2.2)
+		(end 7.63 -4.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ad9af1a-17e9-4229-ab4a-ed01692266a4")
+	)
+	(fp_line
+		(start 7.63 4.25)
+		(end 7.63 2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e25854d1-8fd3-49c6-9ec4-7a11354abd20")
+	)
+	(fp_rect
+		(start -9 -5)
+		(end 9 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3c219c99-f086-41cb-acdd-49fef1f338ed")
+	)
+	(fp_line
+		(start -7.63 -4.25)
+		(end -7.63 4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "244a39e8-f5c5-4001-a80f-a09e86438d98")
+	)
+	(fp_line
+		(start -7.63 4.25)
+		(end 7.63 4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9783267e-2835-4945-8d23-dfa3615f6c33")
+	)
+	(fp_line
+		(start 7.63 -4.25)
+		(end -7.63 -4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7ead462f-b761-47c6-98d5-951ff06a6b00")
+	)
+	(fp_line
+		(start 7.63 4.25)
+		(end 7.63 -4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe4a1335-0495-4113-88fb-6f8a4ae62c77")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9051ce8c-ed2f-4e94-87b2-484e0cc81636")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -6.05 0 90)
+		(size 3.9 5.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "92cbe8af-5f9b-4ed3-bae8-a5649394463c")
+	)
+	(pad "2" smd rect
+		(at 6.05 0 90)
+		(size 3.9 5.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "32c02633-ad3c-42f8-8972-1eec2615455a")
+	)
+	(embedded_fonts no)
+	(model "${PDX_3D}/V320SM10.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

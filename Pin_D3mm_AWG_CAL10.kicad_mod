@@ -1,0 +1,67 @@
+(footprint "Pin_D3mm_AWG_CAL10"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "solder Pin_ with flat with fork, hole diameter 1.4mm, length 8.5mm, width 2.8mm, e.g. Ettinger 13.13.890, https://katalog.ettinger.de/#p=434")
+	(tags "solder Pin_ with flat fork")
+	(property "Reference" "J2"
+		(at 0 4 0)
+		(layer "F.SilkS")
+		(uuid "a5fa974b-d6e6-4a19-850f-fe50dc15042e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_01x01"
+		(at 0 -2.05 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f538d0f-f89e-4929-9188-73b0d8acbd39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45e1a506-9459-4dc6-9251-bc843ddc0322")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18d44c41-8440-42f1-8e58-4592163fdabb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 6 6)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6b451b2b-f3ef-4586-ab26-a60ed75e9085")
+	)
+	(embedded_fonts no)
+)

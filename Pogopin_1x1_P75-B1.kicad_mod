@@ -1,4 +1,4 @@
-(footprint "Pogopin_1x1" (version 20211014) (generator pcbnew)
+(footprint "Pogopin_1x1_P75-B1" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 59FED5CC)
   (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
@@ -22,8 +22,8 @@
     (tstamp 8d9c660c-16b1-4160-9322-00c0020e2405)
   )
   (pad "1" thru_hole oval (at 0 0) (size 1.2 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 828c426b-cec1-4a00-b650-a36610ebb5b6))
-  (model "${PDX_3D}/Pogo_pin_P75-E2.stp"
-    (offset (xyz 0 0 14))
+  (model "${PDX_3D}/Pogo_pins_P75-B1.stp"
+    (offset (xyz 0 0 14.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
